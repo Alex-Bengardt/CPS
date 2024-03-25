@@ -4,9 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="/style/style.css">
 	<link rel="stylesheet" href="/font/stylesheet.css">
-	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="/style/reset.css">
+	<link rel="stylesheet" href="/style/adaptive_768.css">
+	<link rel="stylesheet" href="/style/adaptive_1120.css">
 	<title>Сервисный центр "CPS"</title>
 </head>
 
@@ -28,12 +30,12 @@
 				</div>
 
 				<div class="header__elements-list corner-list">
-					<div>
-						<label for="repair">Оставить заявку</label>
+					<div class="header__label-box">
+						<label class="header__item-name" for="repair">Оставить заявку</label>
 						<button id="repair" class="header__item repair"></button>
 					</div>
-					<div>
-						<label for="checkstatus">Статус ремонта</label>
+					<div class="header__label-box">
+						<label class="header__item-name" for="checkstatus">Статус ремонта</label>
 						<button id="checkstatus" class="header__item checkstatus"></button>
 					</div>
 				</div>
@@ -75,7 +77,9 @@
 					обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
 				<button class="about-company__button-read-more" type="button">Читать далее</button>
 			</div>
-			<img class="about-company__image-office" src="/image/picture.png" alt="office">
+			<div class="about-company__image-office">
+				<img class="about-company__image" src="/image/picture.png" alt="office">
+			</div>
 		</article>
 
 	</main>
