@@ -40,7 +40,7 @@ body {
 }
 
 .burger {
-	background: url(/image/ic_burger.svg) #FF3E79 no-repeat;
+	background: url(./image/ic_burger.svg) #FF3E79 no-repeat;
 	background-position: 10px 12px;
 	border-radius: 50%;
 	height: 40px;
@@ -48,7 +48,7 @@ body {
 }
 
 .logo {
-	background: url(/image/logo.svg) no-repeat;
+	background: url(./image/logo.svg) no-repeat;
 	display: block;
 	width: 98px;
 	height: 52px;
@@ -63,7 +63,7 @@ body {
 }
 
 .repair {
-	background: url(/image/ic_repair.svg) #FF3E79 no-repeat;
+	background: url(./image/ic_repair.svg) #FF3E79 no-repeat;
 	background-position: 10px 10px;
 	border-radius: 50%;
 	height: 40px;
@@ -71,7 +71,7 @@ body {
 }
 
 .checkstatus {
-	background: url(/image/ic_checkstatus.svg) #FF3E79 no-repeat;
+	background: url(./image/ic_checkstatus.svg) #FF3E79 no-repeat;
 	background-position: 12px 10px;
 	border-radius: 50%;
 	height: 40px;
@@ -186,7 +186,7 @@ body {
 
 .about-company__button-read-more::before {
 	content: "";
-	background: url(/image/ic_expand.png) no-repeat;
+	background: url(./image/ic_expand.png) no-repeat;
 	position: absolute;
 	height: 24px;
 	width: 24px;
