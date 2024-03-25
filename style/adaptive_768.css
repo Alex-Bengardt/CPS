@@ -31,7 +31,7 @@
 	}
 
 	.call {
-		background: url(image/ic_call.svg) #FF3E79 no-repeat;
+		background: url(/image/ic_call.svg) #FF3E79 no-repeat;
 		background-position: 11px 11px;
 		border-radius: 50%;
 		height: 40px;
@@ -39,7 +39,7 @@
 	}
 
 	.chat {
-		background: url(image/ic_chat.svg) #FF3E79 no-repeat;
+		background: url(/image/ic_chat.svg) #FF3E79 no-repeat;
 		background-position: 10px 11px;
 		border-radius: 50%;
 		height: 40px;
@@ -47,7 +47,7 @@
 	}
 
 	.profile {
-		background: url(image/ic_profile.svg) #FF3E79 no-repeat;
+		background: url(/image/ic_profile.svg) #FF3E79 no-repeat;
 		background-position: 10px 10px;
 		border-radius: 50%;
 		height: 40px;
