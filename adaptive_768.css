@@ -31,27 +31,21 @@
 	}
 
 	.call {
-		background: url(image/ic_call.svg) #FF3E79 no-repeat;
+		background-image: url(image/ic_call.svg);
+		background-repeat: no-repeat;
 		background-position: 11px 11px;
-		border-radius: 50%;
-		height: 40px;
-		width: 40px;
 	}
 
 	.chat {
-		background: url(image/ic_chat.svg) #FF3E79 no-repeat;
+		background-image: url(image/ic_chat.svg);
+		background-repeat: no-repeat;
 		background-position: 10px 11px;
-		border-radius: 50%;
-		height: 40px;
-		width: 40px;
 	}
 
 	.profile {
-		background: url(image/ic_profile.svg) #FF3E79 no-repeat;
+		background-image: url(image/ic_profile.svg);
+		background-repeat: no-repeat;
 		background-position: 10px 10px;
-		border-radius: 50%;
-		height: 40px;
-		width: 40px;
 	}
 
 	.addon-list::after {
@@ -84,18 +78,21 @@
 	/* INFORMATION */
 	.about-company {
 		flex-direction: row;
+		justify-content: space-between;
 		gap: 48px;
 		margin: 0 24px;
 	}
 
 	.about-company__text {
 		margin: 0;
-		height: 160px;
+		min-width: 312px;
+		max-width: 50%;
+		flex-grow: 1;
 	}
+	
 
 	.about-company__fragment {
 		line-height: 20px;
-		width: 312px;
 	}
 
 	.about-company__fragment:nth-child(2) {
@@ -106,10 +103,7 @@
 		display: none;
 	}
 
-
 	.about-company__image {
-		width: 360px;
-		height: 208px;
 		border-radius: 5px;
 	}
 }

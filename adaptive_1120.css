@@ -49,16 +49,11 @@
 
 
 	/* INFORMATION */
-	.about-company__fragment {
-		width: 490px;
+	.about-company {
+		justify-content: space-between;
 	}
 
 	.about-company__fragment--hidden {
 		display: inline;
-	}
-
-	.about-company__image {
-		height: 100%;
-		width: 100%;
 	}
 }

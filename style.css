@@ -39,12 +39,17 @@ body {
 
 }
 
-.burger {
-	background: url(image/ic_burger.svg) #FF3E79 no-repeat;
-	background-position: 10px 12px;
-	border-radius: 50%;
-	height: 40px;
+.header__item {
 	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+.burger {
+	background-image: url(image/ic_burger.svg);
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
 }
 
 .logo {
@@ -63,19 +68,15 @@ body {
 }
 
 .repair {
-	background: url(image/ic_repair.svg) #FF3E79 no-repeat;
+	background-image: url(image/ic_repair.svg);
+	background-repeat: no-repeat;
 	background-position: 10px 10px;
-	border-radius: 50%;
-	height: 40px;
-	width: 40px;
 }
 
 .checkstatus {
-	background: url(image/ic_checkstatus.svg) #FF3E79 no-repeat;
+	background-image: url(image/ic_checkstatus.svg);
+	background-repeat: no-repeat;
 	background-position: 12px 10px;
-	border-radius: 50%;
-	height: 40px;
-	width: 40px;
 }
 
 .addon-list {
@@ -195,7 +196,10 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.about-company__image-office {
+	flex: 1 1 auto;
+}
+
 .about-company__image {
-	height: 176px;
 	width: 100%;
 }
