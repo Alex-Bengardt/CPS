@@ -78,7 +78,6 @@ body {
 
 .header__right-list .header__elements-list:first-child {
 	display: none;
-	position: relative;
 }
 
 .header__title {
