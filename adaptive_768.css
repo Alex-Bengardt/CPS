@@ -4,11 +4,11 @@
 		padding: 18px 24px;
 	}
 
-	.main-list {
+	.header__menu > .header__elements-list {
 		gap: 43px;
 	}
 
-	.main-list::after {
+	.header__menu > .header__elements-list::after {
 		display: none;
 	}
 
@@ -24,10 +24,9 @@
 		background: rgb(234, 234, 234);
 	}
 
-	.addon-list {
+	.header__right-list .header__elements-list:first-child {
 		display: flex;
 		margin-right: 42px;
-		position: relative;
 	}
 
 	.call {
@@ -48,30 +47,14 @@
 		background-position: 10px 10px;
 	}
 
-	.addon-list::after {
-		content: "";
-		position: absolute;
-		width: 2px;
-		height: 32px;
-		right: -23px;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		border-radius: 1px;
-		background: rgb(234, 234, 234);
-	}
-
 	.header__title {
-		margin: 32px 18px;
-	}
-
-	.header__title::before {
-		left: -16px;
+		padding: 32px 18px;
 	}
 
 
 	/* NAVIGATION */
 	.service-nav {
-		margin-left: 24px;
+		padding-left: 24px;
 	}
 
 
@@ -80,11 +63,11 @@
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 48px;
-		margin: 0 24px;
+		padding: 0 24px;
 	}
 
 	.about-company__text {
-		margin: 0;
+		padding: 0;
 		min-width: 312px;
 		max-width: 50%;
 		flex-grow: 1;

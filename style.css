@@ -20,13 +20,10 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 16px;
-}
-
-.main-list {
 	position: relative;
 }
 
-.main-list::after {
+.header__elements-list:first-child::after {
 	content: "";
 	position: absolute;
 	width: 2px;
@@ -79,20 +76,20 @@ body {
 	background-position: 12px 10px;
 }
 
-.addon-list {
+.header__right-list .header__elements-list:first-child {
 	display: none;
 	position: relative;
 }
 
 .header__title {
-	margin: 24px 16px;
+	padding: 24px 16px;
 	position: relative;
 }
 
 .header__title::before {
 	content: "";
 	position: absolute;
-	left: -14px;
+	left: 2px;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	height: 40px;
@@ -113,8 +110,8 @@ body {
 
 /* NAVIGATION */
 .service-nav {
-	margin-bottom: 24px;
-	margin-left: 16px;
+	padding-bottom: 24px;
+	padding-left: 16px;
 }
 
 .service-list {
@@ -157,7 +154,7 @@ body {
 	gap: 16px;
 	height: 90px;
 	align-self: flex-start;
-	margin: 0 16px;
+	padding: 0 16px;
 }
 
 .about-company__fragment {
@@ -176,7 +173,7 @@ body {
 .about-company__button-read-more {
 	align-self: flex-start;
 	position: relative;
-	margin-left: 32px;
+	padding-left: 32px;
 	color: rgb(27, 28, 33);
 	font-weight: 500;
 	line-height: 24px;
@@ -191,7 +188,7 @@ body {
 	position: absolute;
 	height: 24px;
 	width: 24px;
-	left: -22px;
+	left: 10px;
 	top: 50%;
 	transform: translate(-50%, -50%);
 }

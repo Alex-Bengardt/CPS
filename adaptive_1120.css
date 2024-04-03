@@ -3,7 +3,7 @@
 	.header {
 		display: flex;
 		justify-content: space-between;
-		margin: 42px 32px 9px 32px;
+		padding: 42px 32px 9px 32px;
 	}
 
 	.header__menu {
@@ -13,7 +13,9 @@
 		padding: 0;
 	}
 
-	.header__elements-list:first-child {
+	.header__elements-list:first-child,
+	.header__right-list .header__elements-list:first-child 
+	{
 		display: none;
 	}
 
@@ -34,7 +36,7 @@
 
 	.header__title {
 		order: -1;
-		margin: 0;
+		padding: 0;
 	}
 
 	.header__title::before {
